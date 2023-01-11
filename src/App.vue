@@ -89,7 +89,6 @@ export default {
       if (t) {
         this.personalInfo.forEach((pio) => {
           t = t.replace(pio, '<div class="redacted-text"></div>')
-          console.log('> t : ', t)
         })
       }
       return t
